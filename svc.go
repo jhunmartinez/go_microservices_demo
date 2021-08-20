@@ -11,7 +11,7 @@ import (
 
 func main() {
 	repository.AddProduct(models.Product{
-		Name:      "Milk",
+		Name:      "Eggs",
 		UnitPrice: 4.00,
 	})
 	repository.AddProduct(models.Product{
